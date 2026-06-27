@@ -1,0 +1,27 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "atlas-64720",
+          "appId": "1:895725012415:android:65176d4f598b9baa0c8d0a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "atlas-64720",
+          "configurations": {
+            "android": "1:895725012415:android:65176d4f598b9baa0c8d0a"
+          }
+        }
+      }
+    }
+  }
+}
